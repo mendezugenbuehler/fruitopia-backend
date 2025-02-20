@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
-require('dotenv').config;
+require('dotenv').config();
 
 const app = express();
 const BASE_URL = 'https://www.fruityvice.com/api/fruit';
